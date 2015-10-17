@@ -12,6 +12,6 @@ This READMe file explains how the script “run_analysis.R” and code works and
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##This Repository will include:
-*run_analysis.R: Script for transforming raw data to tidy data
-*Code Book: Information on variables, data and transformation
-*tidyData.txt: Text file of tidy data set.
+* run_analysis.R: Script for transforming raw data to tidy data
+* Code Book: Information on variables, data and transformation
+* tidyData.txt: Text file of tidy data set.
