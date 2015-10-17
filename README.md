@@ -40,16 +40,19 @@ The tidy data output fulfils the criteria and clearly complies with the output a
 
 The data has headings so it’s easy to distinguish which columns are which, the variables are in different columns and there are no duplicate columns.
 
-The output from this Tidy data set takes the wide form and has been mentioned in the rubric that either long or wide is acceptable (as discussed in the forum and mentioned in in Hadley Wickham’s Tidy Data paper). Also tidy data is only worthwhile if it makes analysis easier and the form of ‘tidy’ depends on the problem being solved (again discussed in the forum and outlined in Hadley Wickham’s Tidy Data paper). This was forefront in my mind when structuring the tidy data set. 
+The output from this Tidy data set takes the *wide form* and it has been mentioned in the rubric that either long or wide is acceptable (as discussed in the forum and mentioned in in Hadley Wickham’s Tidy Data paper). Also tidy data is only worthwhile if it makes analysis easier and the form of ‘tidy’ depends on the problem being solved (again discussed in the forum and outlined in Hadley Wickham’s Tidy Data paper). This was forefront in my mind when structuring the tidy data set. 
 
+####Additinal Discussion
 Considering the points above and remembering there are many forms of tidy, it’s also possible to construct the long form which was my initial result, shown below. 
 
       Subject  Activity       Features      Average
 4       1  WALKING tGravityAcc-mean()-X  0.93522320
+
 5       1  WALKING tGravityAcc-mean()-Y -0.28216502
+
 6       1  WALKING tGravityAcc-mean()-Z -0.06810286
 
-The data has headings so it’s easy to distinguish which columns are which, there are no duplicate columns, however it does counter rule the variables are in different columns. Still, it does fulfil the requirements and is appropriate for the problem being solved.
+Note: The data has headings so it’s easy to distinguish which columns are which, there are no duplicate columns, however it does counter rule the variables are in different columns. Still, it does fulfil the requirements and is appropriate for the problem being solved.
 
 
 
