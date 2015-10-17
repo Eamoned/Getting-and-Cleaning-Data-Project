@@ -35,14 +35,14 @@ This script will generate a tidy data test file which meets the principles of ti
 * Each observation forms a row
 * Each type of observational unit forma a table  
 
-###Discussion
+###Discussion of Results
 The tidy data output fulfils the criteria and clearly complies with the output as outlined in point 5 of the script requirements.
 
 The data has headings so it’s easy to distinguish which columns are which, the variables are in different columns and there are no duplicate columns.
 
 The output from this Tidy data set takes the *wide form* and it has been mentioned in the rubric that either long or wide is acceptable (as discussed in the forum and mentioned in in Hadley Wickham’s Tidy Data paper). Also tidy data is only worthwhile if it makes analysis easier and the form of ‘tidy’ depends on the problem being solved (again discussed in the forum and outlined in Hadley Wickham’s Tidy Data paper). This was forefront in my mind when structuring the tidy data set. 
 
-####Additinal Discussion
+#####Additinal Discussion
 Considering the points above and remembering there are many forms of tidy, it’s also possible to construct the long form which was my initial result, shown below. 
 
       Subject  Activity       Features      Average
