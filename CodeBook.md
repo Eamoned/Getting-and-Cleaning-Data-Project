@@ -32,16 +32,16 @@ test/y_test.txt: Test labels<br/>
 &nbsp;&nbsp;&nbsp;Data frame: 2947 obs; 1 integer variable; unique values 1 to 6 corresponding to activity labels.
 
 train/y_train.txt: Training labels<br/>
-Data frame: 7352 obs; 1 integer variable; unique values 1 to 6 corresponding to activity labels.
+&nbsp;&nbsp;&nbsp;Data frame: 7352 obs; 1 integer variable; unique values 1 to 6 corresponding to activity labels.
 
 subject_train: <br/>
-Data frame: 7352 obs; 1 integer variable: Corresponds to 21 subjects for the “train” datasets.<br/>
+&nbsp;&nbsp;&nbsp;Data frame: 7352 obs; 1 integer variable: Corresponds to 21 subjects for the “train” datasets.<br/>
 Subject_test:<br/>
-Data frame: 2947 obs; 1 integer variable: Corresponds to 9 subjects for the “test” datasets.<br/>
+&nbsp;&nbsp;&nbsp;Data frame: 2947 obs; 1 integer variable: Corresponds to 9 subjects for the “test” datasets.<br/>
 (Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30)
 
 activity_labels.txt: Links the class labels with their activity name<br/> 
-Data frame: 6 obs; 2 Variables: integer V1; Factor V2 with 6 levels.<br/>
+&nbsp;&nbsp;&nbsp;Data frame: 6 obs; 2 Variables: integer V1; Factor V2 with 6 levels.<br/>
 (Labels: Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying)
 
 ###Tidy data Transformation
@@ -68,6 +68,70 @@ Activities in the dataset were named using the labels in the ‘activity_labels 
 The idea is to make variable names human readable.
 
 ###Appropriate labelling the dataset with descriptive variable names:
+To maintain the theme of keeping variable names human readable,<br/>
+Subject:<br/>
+	&nbsp;&nbsp;&nbsp;Participants of the experiment<br/>
+	&nbsp;&nbsp;&nbsp;Unique identifier for each subject, numbered 1 to 30<br/>
+	
+Activities:<br/>
+	    &nbsp;&nbsp;&nbsp;Names of each activity<br/>
+	    &nbsp;&nbsp;&nbsp;Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying<br/>
+	
+	Features:<br/>
+Acceleration and velocity mean and standard deviation measurements filtered from sensor signals carried out on the subjects. Includes all measurements for individual x, y and z axis only.
+
+The variable names are descriptive to indicate features such as mean, sd, axis, and other components of the measurement.<br/>
+[1] tBodyAcc-mean()-X<br/>     
+ [2] tBodyAcc-mean()-Y<br/>     
+ [3] tBodyAcc-mean()-Z <br/>    
+ [4] tGravityAcc-mean()-X <br/> 
+ [5] tGravityAcc-mean()-Y<br/>  
+ [6] tGravityAcc-mean()-Z<br/>  
+ [7] tBodyAccJerk-mean()-X <br/>
+ [8] tBodyAccJerk-mean()-Y <br/>
+ [9] tBodyAccJerk-mean()-Z <br/>
+[10] tBodyGyro-mean()-X  <br/>  
+[11] tBodyGyro-mean()-Y  <br/>  
+[12] tBodyGyro-mean()-Z  <br/>  
+[13] tBodyGyroJerk-mean()-X<br/>
+[14] tBodyGyroJerk-mean()-Y<br/>
+[15] tBodyGyroJerk-mean()-Z<br/>
+[16] fBodyAcc-mean()-X     <br/>
+[17] fBodyAcc-mean()-Y <br/>    
+[18] fBodyAcc-mean()-Z  <br/>   
+[19] fBodyAccJerk-mean()-X <br/>
+[20] fBodyAccJerk-mean()-Y <br/>
+[21] fBodyAccJerk-mean()-Z <br/>
+[22] fBodyGyro-mean()-X  <br/>  
+[23] fBodyGyro-mean()-Y <br/>   
+[24] fBodyGyro-mean()-Z <br/>   
+[25] tBodyAcc-std()-X  <br/>    
+[26] tBodyAcc-std()-Y   <br/>   
+[27] tBodyAcc-std()-Z   <br/>   
+[28] tGravityAcc-std()-X  <br/> 
+[29] tGravityAcc-std()-Y  <br/> 
+[30] tGravityAcc-std()-Z  <br/> 
+[31] tBodyAccJerk-std()-X  <br/>
+[32] tBodyAccJerk-std()-Y  <br/>
+[33] tBodyAccJerk-std()-Z  <br/>
+[34] tBodyGyro-std()-X    <br/> 
+[35] tBodyGyro-std()-Y  <br/>   
+[36] tBodyGyro-std()-Z     <br/>
+[37] tBodyGyroJerk-std()-X <br/>
+[38] tBodyGyroJerk-std()-Y <br/>
+[39] tBodyGyroJerk-std()-Z <br/>
+[40] fBodyAcc-std()-X <br/>     
+[41] fBodyAcc-std()-Y  <br/>    
+[42] fBodyAcc-std()-Z  <br/>    
+[43] fBodyAccJerk-std()-X  <br/>
+[44] fBodyAccJerk-std()-Y  <br/>
+[45] fBodyAccJerk-std()-Z  <br/>
+[46] fBodyGyro-std()-X  <br/>   
+[47] fBodyGyro-std()-Y <br/>
+[48] fBodyGyro-std()-Z  <br/>  
+
+
+	
 
 
 
