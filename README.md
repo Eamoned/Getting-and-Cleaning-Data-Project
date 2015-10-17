@@ -15,3 +15,11 @@ This READMe file explains how the script “run_analysis.R” and code works and
 * run_analysis.R: Script for transforming raw data to tidy data
 * Code Book: Information on variables, data and transformation
 * tidyData.txt: Text file of tidy data set.
+
+##Run_analysis.R
+This one script includes the full data processing cycle, including down load of datasets from the relevant web site, unzipping of data sets, merging, and so forth, and culminating with the creation of the tidy data set as a txt file.
+
+No modifications are required for the script unless the following should apply:
+•	The user already has the necessary datasets and files set up. In this case the “data download” section at the beginning of the script can be disregarded.
+•	The code requires packages dplyr and tidyr to run. Library download is included in the script however these packages may need to be downloaded and installed before running the script.
+
