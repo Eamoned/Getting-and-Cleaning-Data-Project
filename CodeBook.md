@@ -82,14 +82,14 @@ Acceleration and velocity mean and standard deviation measurements filtered from
 
 The variable names are descriptive to indicate features such as mean, sd, axis, and other components of the measurement.<br/>
 [1] tBodyAcc-mean()-X<br/>     
- [2] tBodyAcc-mean()-Y<br/>     
- [3] tBodyAcc-mean()-Z<br/>    
- [4] tGravityAcc-mean()-X<br/> 
- [5] tGravityAcc-mean()-Y<br/>  
- [6] tGravityAcc-mean()-Z<br/>  
- [7] tBodyAccJerk-mean()-X<br/>
- [8] tBodyAccJerk-mean()-Y<br/>
- [9] tBodyAccJerk-mean()-Z<br/>
+[2] tBodyAcc-mean()-Y<br/>     
+[3] tBodyAcc-mean()-Z<br/>    
+[4] tGravityAcc-mean()-X<br/> 
+[5] tGravityAcc-mean()-Y<br/>  
+[6] tGravityAcc-mean()-Z<br/>  
+[7] tBodyAccJerk-mean()-X<br/>
+[8] tBodyAccJerk-mean()-Y<br/>
+[9] tBodyAccJerk-mean()-Z<br/>
 [10] tBodyGyro-mean()-X<br/>  
 [11] tBodyGyro-mean()-Y<br/>  
 [12] tBodyGyro-mean()-Z<br/>  
