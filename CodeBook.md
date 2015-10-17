@@ -17,10 +17,10 @@ The main datasets applicable to this project include the following. Note that ot
 
 The x_train and y_train datasets contains the measurements for the different features:<br/>
 train/X_train.txt: Training set consisting of values for the ‘feature’ measurements.<br/>
-<p>Data frame; 561 number Variables; 7352 obs. No NAs<p/>
+p))Data frame; 561 number Variables; 7352 obs. No NAs<p/>
 
 test/X_test.txt: Test set consisting of values for the ‘feature’ measurements.<br/>
-<space>Data frame; 561 number Variables; 2949 obs. No NAs
+p))Data frame; 561 number Variables; 2949 obs. No NAs
 
 
 
