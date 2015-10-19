@@ -47,7 +47,7 @@ tBodyAcc-std()-Y, tBodyAcc-std()-Z …..)<br/>
 &nbsp;&nbsp;&nbsp;(Labels: Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying)
 
 ##Tidy data Transformation
-####Merging training & test datasets:###<br/>
+####Merging training & test datasets:<br/>
 Test (x_test, subject_test, y_test) and training(y_train, subject_train, y_train) datasets merged to obtain a single dataset.<br/>
 Feature Variables are labelled using the using the ‘features’ dataset  
 
@@ -83,6 +83,7 @@ To maintain the theme of keeping variable names human readable,<br/>
 Acceleration and velocity mean and standard deviation measurements filtered from sensor signals carried out on the subjects. Includes all measurements for individual x, y and z axis only.
 
 The variable names are descriptive to indicate features such as mean, sd, axis, and other components of the measurement.<br/>
+
 [1] tBodyAcc-mean()-X<br/>     
 [2] tBodyAcc-mean()-Y<br/>     
 [3] tBodyAcc-mean()-Z<br/>    
