@@ -84,6 +84,7 @@ Acceleration and velocity mean and standard deviation measurements filtered from
 
 The variable names are descriptive to indicate features such as mean, sd, axis, and other components of the measurement.<br/>
 
+<ul>
 * [1] tBodyAcc-mean()-X<br/>     
 * [2] tBodyAcc-mean()-Y<br/>     
 * [3] tBodyAcc-mean()-Z<br/>    
@@ -132,7 +133,7 @@ The variable names are descriptive to indicate features such as mean, sd, axis, 
 [46] fBodyGyro-std()-X<br/>   
 [47] fBodyGyro-std()-Y<br/>
 [48] fBodyGyro-std()-Z<br/>  
-
+</ul>
 
 	
 
