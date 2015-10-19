@@ -1,12 +1,12 @@
 # Getting-and-Cleaning-Data-Project
-This repo contains the the <code>README.md<code/>, CodeBook.md, run_analysis.R script and tidy data text file requirements for the Getting &amp; Cleaning Data Project 
+This repo contains the the <code>README.md</code>, <code>CodeBook.md</code>, <code>run_analysis.R</code> script and tidy data text file requirements for the Getting &amp; Cleaning Data Project 
 
 This READMe file explains how the script “run_analysis.R” and code works and how the different parts of the analysis fit together. 
 
 ###This Repository will include:
-* run_analysis.R: Script for transforming raw data to tidy data
-* Code Book: Information on variables, data and transformation
-* tidyData.txt: Text file of tidy data set.
+* <code>run_analysis.R</code>: Script for transforming raw data to tidy data
+* <code>CodeBook</code>: Information on variables, data and transformation
+* <code>tidyData.txt</code>: Text file of tidy data set.
 
 ###The Script will carry out the following:
 1.	Merges the training and the test sets to create one data set.
@@ -39,7 +39,7 @@ The tidy data output fulfils the criteria and clearly complies with the output a
 
 The data has headings so it’s easy to distinguish which columns are which, the variables are in different columns and there are no duplicate columns.
 
-The output from this Tidy data set takes the '''wide form'''. Refer to <code>tidyData.txt<code/><br/>It has been mentioned in the rubric that either long or wide is acceptable (as discussed in the forum and mentioned in in Hadley Wickham’s Tidy Data paper). Also tidy data is only worthwhile if it makes analysis easier and the form of ‘tidy’ depends on the problem being solved (again discussed in the forum and outlined in Hadley Wickham’s Tidy Data paper). This was forefront in my mind when structuring the tidy data set. 
+The output from this Tidy data set takes the '''wide form'''. Refer to the output in <code>tidyData.txt</code><br/>It has been mentioned in the rubric that either long or wide is acceptable (as discussed in the forum and mentioned in in Hadley Wickham’s Tidy Data paper). Also tidy data is only worthwhile if it makes analysis easier and the form of ‘tidy’ depends on the problem being solved (again discussed in the forum and outlined in Hadley Wickham’s Tidy Data paper). This was forefront in my mind when structuring the tidy data set. 
 
 #####Additional Discussion
 Considering the points above and remembering there are many forms of tidy, it’s also possible to construct the long form which was my initial result, shown below. 
@@ -51,7 +51,7 @@ Considering the points above and remembering there are many forms of tidy, it’
 
 6       1  WALKING tGravityAcc-mean()-Z -0.06810286
 
-Note: The data has headings so it’s easy to distinguish which columns are which, there are no duplicate columns, however it does counter rule the variables are in different columns. Still, it does fulfil the requirements and is appropriate for the problem being solved.
+Note: The data has headings so it’s easy to distinguish which columns are which, there are no duplicate columns, however it does counter rule that variables are in different columns. Still, it does fulfil the requirements and is appropriate for the problem being solved.
 
 
 
