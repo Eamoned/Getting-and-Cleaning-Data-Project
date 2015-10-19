@@ -21,30 +21,30 @@ The main datasets applicable to this project include the following. Note that ot
 &nbsp;&nbsp;&nbsp; train/X_train.txt: Training set consisting of values for the ‘feature’ measurements.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; Data frame; 561 number Variables; 7352 obs. No NAs<p/>
 
-test/X_test.txt: Test set consisting of values for the ‘feature’ measurements.<br/>
+* test/X_test.txt: Test set consisting of values for the ‘feature’ measurements.<br/>
 &nbsp;&nbsp;&nbsp;Data frame; 561 number Variables; 2949 obs. No NAs
 
-features.txt: List of all features from the experiment.
+* features.txt: List of all features from the experiment.
 
-This comes from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.<br/> 
-(Examples include: tBodyAcc-mean()-X,  tBodyAcc-mean()-Y,  tBodyAcc-mean()-Z, tBodyAcc-std()-X, tBodyAcc-std()-Y, tBodyAcc-std()-Z …..)<br/>
+&nbsp;&nbsp;&nbsp;This comes from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.<br/> 
+&nbsp;&nbsp;&nbsp;(Examples include: tBodyAcc-mean()-X,  tBodyAcc-mean()-Y,  tBodyAcc-mean()-Z, tBodyAcc-std()-X, tBodyAcc-std()-Y, tBodyAcc-std()-Z …..)<br/>
 &nbsp;&nbsp;&nbsp;Data frame; 561 obs; 2 Variables: integer V1, Factor V2. Corresponds to values of x_test/train datasets.
 
-test/y_test.txt: Test labels<br/>
+* test/y_test.txt: Test labels<br/>
 &nbsp;&nbsp;&nbsp;Data frame: 2947 obs; 1 integer variable; unique values 1 to 6 corresponding to activity labels.
 
-train/y_train.txt: Training labels<br/>
+* train/y_train.txt: Training labels<br/>
 &nbsp;&nbsp;&nbsp;Data frame: 7352 obs; 1 integer variable; unique values 1 to 6 corresponding to activity labels.
 
-subject_train: <br/>
+* subject_train: <br/>
 &nbsp;&nbsp;&nbsp;Data frame: 7352 obs; 1 integer variable: Corresponds to 21 subjects for the “train” datasets.<br/>
-Subject_test:<br/>
+*Subject_test:<br/>
 &nbsp;&nbsp;&nbsp;Data frame: 2947 obs; 1 integer variable: Corresponds to 9 subjects for the “test” datasets.<br/>
-(Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30)
+&nbsp;&nbsp;&nbsp;(Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30)
 
-activity_labels.txt: Links the class labels with their activity name<br/> 
+* activity_labels.txt: Links the class labels with their activity name<br/> 
 &nbsp;&nbsp;&nbsp;Data frame: 6 obs; 2 Variables: integer V1; Factor V2 with 6 levels.<br/>
-(Labels: Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying)
+&nbsp;&nbsp;&nbsp;(Labels: Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying)
 
 ###Tidy data Transformation
 Merging training & test datasets:<br/>
