@@ -25,10 +25,9 @@ The main datasets applicable to this project include the following. Note that ot
 &nbsp;&nbsp;&nbsp;Data frame; 561 number Variables; 2949 obs. No NAs
 
 * features.txt: List of all features from the experiment.
-
 &nbsp;&nbsp;&nbsp;This comes from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.<br/> 
-&nbsp;&nbsp;&nbsp;(Examples include: tBodyAcc-mean()-X,  tBodyAcc-mean()-Y,  tBodyAcc-mean()-Z, tBodyAcc-std()-X, tBodyAcc-std()-Y, tBodyAcc-std()-Z …..)<br/>
-&nbsp;&nbsp;&nbsp;Data frame; 561 obs; 2 Variables: integer V1, Factor V2. Corresponds to values of x_test/train datasets.
+&nbsp;&nbsp;&nbsp;(Examples include: tBodyAcc-mean()-X,  tBodyAcc-mean()-Y,  tBodyAcc-mean()-Z, tBodyAcc-std()-X,<br/> &nbsp;&nbsp;&nbsp;tBodyAcc-std()-Y, tBodyAcc-std()-Z …..)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Data frame; 561 obs; 2 Variables: integer V1, Factor V2. Corresponds to values of x_test/train datasets.
 
 * test/y_test.txt: Test labels<br/>
 &nbsp;&nbsp;&nbsp;Data frame: 2947 obs; 1 integer variable; unique values 1 to 6 corresponding to activity labels.
@@ -38,7 +37,7 @@ The main datasets applicable to this project include the following. Note that ot
 
 * subject_train: <br/>
 &nbsp;&nbsp;&nbsp;Data frame: 7352 obs; 1 integer variable: Corresponds to 21 subjects for the “train” datasets.<br/>
-*Subject_test:<br/>
+* Subject_test:<br/>
 &nbsp;&nbsp;&nbsp;Data frame: 2947 obs; 1 integer variable: Corresponds to 9 subjects for the “test” datasets.<br/>
 &nbsp;&nbsp;&nbsp;(Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30)
 
