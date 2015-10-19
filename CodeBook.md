@@ -26,7 +26,7 @@ The main datasets applicable to this project include the following. Note that ot
 
 * features.txt: List of all features from the experiment.<br/>
 &nbsp;&nbsp;&nbsp;This comes from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.<br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;Data frame; 561 obs; 2 Variables: integer V1, Factor V2. Corresponds to values of x_test/train datasets.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data frame; 561 obs; 2 Variables: integer V1, Factor V2. Corresponds to values of x_test/train datasets.
 (Examples include: tBodyAcc-mean()-X,  tBodyAcc-mean()-Y,  tBodyAcc-mean()-Z, tBodyAcc-std()-X,<br/> 
 tBodyAcc-std()-Y, tBodyAcc-std()-Z …..)<br/>
 
