@@ -11,13 +11,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Note: The goal of this project is to demonstrate and detail the collection, merging, working with and cleaning of the dataset and so detail on where and how the experiment data came from will not detail in this text.
 
+###Data sets
+
 In the available datasets in the “UCI HAR Dataset” relevant data values, variables and column names were split up over several separate datasets.
 
 The main datasets applicable to this project include the following. Note that other datasets (such as “Inertial Signals” datasets) were not required for the purpose of this project.
 
-The x_train and y_train datasets contains the measurements for the different features:<br/>
-train/X_train.txt: Training set consisting of values for the ‘feature’ measurements.<br/>
-&nbsp;&nbsp;&nbsp;Data frame; 561 number Variables; 7352 obs. No NAs<p/>
+*The x_train and y_train datasets contains the measurements for the different features:<br/>
+**train/X_train.txt: Training set consisting of values for the ‘feature’ measurements.<br/>
+***Data frame; 561 number Variables; 7352 obs. No NAs<p/>
 
 test/X_test.txt: Test set consisting of values for the ‘feature’ measurements.<br/>
 &nbsp;&nbsp;&nbsp;Data frame; 561 number Variables; 2949 obs. No NAs
