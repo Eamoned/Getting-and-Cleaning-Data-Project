@@ -60,7 +60,7 @@ After merging both train and test datasets columns 1 and 2 have the same column 
 ####Extracting only measurements on the mean and standard deviation for each measurement:
 When extracting only the measurements on the mean and standard deviation for each measurement it was not stated explicitly what format this should take, i.e. in some cases ‘mean’ and ‘sd’ formed part of a name whilst in others it was quite distinct. It’s assumed there’s some flexibility in the matter and so names with the following format will be extracted.
 
-Any name with the format “-mean()-“ and “-sd()-”. This means also any name with ‘-y’, ‘-x’ and ‘-z’ will be extracted. 
+Any name with the format “-mean()-“ and “-sd()-”. Also any name with ‘-y’, ‘-x’ and ‘-z’ will be extracted. 
 Formats such as “-mean()” and “sdfreq()” will not be extracted.
 
 (Note: other interpretations of this will of course output different results to my tidy dataset but this project is aimed at the means of achieving tidy data rather than actual the ‘average’ results).
@@ -84,24 +84,24 @@ Acceleration and velocity mean and standard deviation measurements filtered from
 
 The variable names are descriptive to indicate features such as mean, sd, axis, and other components of the measurement.<br/>
 
-[1] tBodyAcc-mean()-X<br/>     
-[2] tBodyAcc-mean()-Y<br/>     
-[3] tBodyAcc-mean()-Z<br/>    
-[4] tGravityAcc-mean()-X<br/> 
-[5] tGravityAcc-mean()-Y<br/>  
-[6] tGravityAcc-mean()-Z<br/>  
-[7] tBodyAccJerk-mean()-X<br/>
-[8] tBodyAccJerk-mean()-Y<br/>
-[9] tBodyAccJerk-mean()-Z<br/>
-[10] tBodyGyro-mean()-X<br/>  
-[11] tBodyGyro-mean()-Y<br/>  
-[12] tBodyGyro-mean()-Z<br/>  
-[13] tBodyGyroJerk-mean()-X<br/>
-[14] tBodyGyroJerk-mean()-Y<br/>
-[15] tBodyGyroJerk-mean()-Z<br/>
-[16] fBodyAcc-mean()-X<br/>
-[17] fBodyAcc-mean()-Y<br/>    
-[18] fBodyAcc-mean()-Z<br/>   
+* [1] tBodyAcc-mean()-X<br/>     
+* [2] tBodyAcc-mean()-Y<br/>     
+* [3] tBodyAcc-mean()-Z<br/>    
+* [4] tGravityAcc-mean()-X<br/> 
+* [5] tGravityAcc-mean()-Y<br/>  
+* [6] tGravityAcc-mean()-Z<br/>  
+* [7] tBodyAccJerk-mean()-X<br/>
+* [8] tBodyAccJerk-mean()-Y<br/>
+* [9] tBodyAccJerk-mean()-Z<br/>
+* [10] tBodyGyro-mean()-X<br/>  
+* [11] tBodyGyro-mean()-Y<br/>  
+* [12] tBodyGyro-mean()-Z<br/>  
+* [13] tBodyGyroJerk-mean()-X<br/>
+* [14] tBodyGyroJerk-mean()-Y<br/>
+* [15] tBodyGyroJerk-mean()-Z<br/>
+* [16] fBodyAcc-mean()-X<br/>
+* [17] fBodyAcc-mean()-Y<br/>    
+* [18] fBodyAcc-mean()-Z<br/>   
 [19] fBodyAccJerk-mean()-X<br/>
 [20] fBodyAccJerk-mean()-Y<br/>
 [21] fBodyAccJerk-mean()-Z<br/>
