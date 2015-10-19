@@ -18,7 +18,7 @@ In the available datasets in the “UCI HAR Dataset” relevant data values, var
 The main datasets applicable to this project include the following. Note that other datasets (such as “Inertial Signals” datasets) were not required for the purpose of this project.
 
 * The x_train and y_train datasets contains the measurements for the different features:<br/>
-&nbsp;&nbsp;&nbsp; * train/X_train.txt: Training set consisting of values for the ‘feature’ measurements.<br/>
+** train/X_train.txt: Training set consisting of values for the ‘feature’ measurements.<br/>
 &nbsp;&nbsp;&nbsp; * Data frame; 561 number Variables; 7352 obs. No NAs<p/>
 
 test/X_test.txt: Test set consisting of values for the ‘feature’ measurements.<br/>
