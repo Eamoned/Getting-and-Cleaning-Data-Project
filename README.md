@@ -26,7 +26,7 @@ No modifications are required for the script unless the following should apply:
 ###Code Book
 * The accompanying Code Book describes the variables, the data, any transformations or work that was performed to clean up the data and a description of the tidy data file contents.
 * Details are given regarding what constitutes the mean and standard deviation and how this was interpreted and the deciding format it should take.
-* Any light variations from the project sequence are explained and reasons for labelling and the chosen descriptive names are examined.
+* Any slight variations from the project sequence are explained, reasons for labelling and the chosen descriptive names are examined.
  
 ###Tidy data Set
 This script will generate a tidy data test file which meets the principles of tidy data, i.e.
