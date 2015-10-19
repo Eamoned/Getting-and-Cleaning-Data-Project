@@ -71,15 +71,15 @@ The idea is to make variable names human readable.
 
 ####Appropriate labelling the dataset with descriptive variable names:
 To maintain the theme of keeping variable names human readable,<br/>
-Subject:<br/>
+* Subject:<br/>
 	&nbsp;&nbsp;&nbsp;Participants of the experiment<br/>
 	&nbsp;&nbsp;&nbsp;Unique identifier for each subject, numbered 1 to 30<br/>
 	
-Activities:<br/>
+* Activities:<br/>
 	    &nbsp;&nbsp;&nbsp;Names of each activity<br/>
 	    &nbsp;&nbsp;&nbsp;Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying<br/>
 	
-Features:<br/>
+* Features:<br/>
 Acceleration and velocity mean and standard deviation measurements filtered from sensor signals carried out on the subjects. Includes all measurements for individual x, y and z axis only.
 
 The variable names are descriptive to indicate features such as mean, sd, axis, and other components of the measurement.<br/>
