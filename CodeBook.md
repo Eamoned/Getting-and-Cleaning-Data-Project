@@ -46,8 +46,8 @@ tBodyAcc-std()-Y, tBodyAcc-std()-Z …..)<br/>
 &nbsp;&nbsp;&nbsp;Data frame: 6 obs; 2 Variables: integer V1; Factor V2 with 6 levels.<br/>
 &nbsp;&nbsp;&nbsp;(Labels: Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying)
 
-###Tidy data Transformation
-Merging training & test datasets:<br/>
+##Tidy data Transformation
+####Merging training & test datasets:###<br/>
 Test (x_test, subject_test, y_test) and training(y_train, subject_train, y_train) datasets merged to obtain a single dataset.<br/>
 Feature Variables are labelled using the using the ‘features’ dataset  
 
@@ -57,7 +57,7 @@ In the ‘features’ variables (columns), duplicates were identified and remove
 
 After merging both train and test datasets columns 1 and 2 have the same column names i.e. “V1”. To prevent duplicate errors in the following steps column 2 was changed to an appropriate descriptive variable name, i.e. ‘Activity’.
 
-###Extracting only measurements on the mean and standard deviation for each measurement:
+####Extracting only measurements on the mean and standard deviation for each measurement:
 When extracting only the measurements on the mean and standard deviation for each measurement it was not stated explicitly what format this should take, i.e. in some cases ‘mean’ and ‘sd’ formed part of a name whilst in others it was quite distinct. It’s assumed there’s some flexibility in the matter and so names with the following format will be extracted.
 
 Any name with the format “-mean()-“ and “-sd()-”. This means also any name with ‘-y’, ‘-x’ and ‘-z’ will be extracted. 
@@ -65,11 +65,11 @@ Formats such as “-mean()” and “sdfreq()” will not be extracted.
 
 (Note: other interpretations of this will of course output different results to my tidy dataset but this project is aimed at the means of achieving tidy data rather than actual the ‘average’ results).
 
-###Descriptive Activity names:
+####Descriptive Activity names:
 Activities in the dataset were named using the labels in the ‘activity_labels ’ dataset (i.e. Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying).<br/> 
 The idea is to make variable names human readable.
 
-###Appropriate labelling the dataset with descriptive variable names:
+####Appropriate labelling the dataset with descriptive variable names:
 To maintain the theme of keeping variable names human readable,<br/>
 Subject:<br/>
 	&nbsp;&nbsp;&nbsp;Participants of the experiment<br/>
