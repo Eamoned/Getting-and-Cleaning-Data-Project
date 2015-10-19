@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data-Project
-This repo contains the the README.md, CodeBook.md, run_analysis.R script and tidy data text file requirements for the Getting &amp; Cleaning Data Project 
+This repo contains the the <code>README.md<code/>, CodeBook.md, run_analysis.R script and tidy data text file requirements for the Getting &amp; Cleaning Data Project 
 
 This READMe file explains how the script “run_analysis.R” and code works and how the different parts of the analysis fit together. 
 
@@ -39,7 +39,7 @@ The tidy data output fulfils the criteria and clearly complies with the output a
 
 The data has headings so it’s easy to distinguish which columns are which, the variables are in different columns and there are no duplicate columns.
 
-The output from this Tidy data set takes the #####wide form##### <br/>It has been mentioned in the rubric that either long or wide is acceptable (as discussed in the forum and mentioned in in Hadley Wickham’s Tidy Data paper). Also tidy data is only worthwhile if it makes analysis easier and the form of ‘tidy’ depends on the problem being solved (again discussed in the forum and outlined in Hadley Wickham’s Tidy Data paper). This was forefront in my mind when structuring the tidy data set. 
+The output from this Tidy data set takes the '''wide form'''. Refer to <code>tidyData.txt<code/><br/>It has been mentioned in the rubric that either long or wide is acceptable (as discussed in the forum and mentioned in in Hadley Wickham’s Tidy Data paper). Also tidy data is only worthwhile if it makes analysis easier and the form of ‘tidy’ depends on the problem being solved (again discussed in the forum and outlined in Hadley Wickham’s Tidy Data paper). This was forefront in my mind when structuring the tidy data set. 
 
 #####Additional Discussion
 Considering the points above and remembering there are many forms of tidy, it’s also possible to construct the long form which was my initial result, shown below. 
